@@ -5,8 +5,8 @@ class Personne:
     def SePresenter(self):
         print(f"je suis {self.nom} {self.prenom}")
 
-premiere_peronne = Personne("Albertini","Nathalie")
+premiere_personne = Personne("Albertini","Nathalie")
 deuxieme_personne = Personne("Odinot","Matthieu")
 
-premiere_peronne.SePresenter()
+premiere_personne.SePresenter()
 deuxieme_personne.SePresenter()
